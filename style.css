@@ -1,43 +1,51 @@
 /* styles.css */
 
 body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
-    background: linear-gradient(135deg, #f06, #f93);
-    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(B2.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+  
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 400px;
+    width: 400px;
+  height: auto;
+  min-height: 400px;
+  padding: 10px;
+  background: transparent;
+  border: 2px solid #e6b7eca1;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+    margin-bottom: 36px;
+    color: #fffbfb;
 }
 
 .input-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 input[type="text"] {
     flex: 1;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-right: 10px;
-    font-size: 16px;
+  outline: none;
+  padding: 10px 10px 10px 20px;
+  background-color: transparent;
+  border: 2px solid #e6b7eca1;
+  border-radius: 30px;
+  color: #eee;
+  font-size: 16px;
+  margin-right: 10px;
+
 }
 
 button {
@@ -45,7 +53,7 @@ button {
     border: none;
     background-color: #007bff;
     color: white;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
@@ -66,8 +74,8 @@ li {
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ddd;
-    background-color: #fff;
-    border-radius: 4px;
+    background-color: transparent;
+    border-radius: 10px;
     margin-bottom: 10px;
     transition: background-color 0.3s;
 }
@@ -86,7 +94,7 @@ li.completed {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: #007bff;
+    color: #e3e3e3;
     transition: color 0.3s;
 }
 
